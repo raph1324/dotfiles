@@ -1,0 +1,82 @@
+/**
+ * ROFI Color theme
+ * User: Qball
+ * Copyright: Dave Davenport
+ */
+
+configuration {
+
+    // The display name of this browser
+    display-ssh:                   "  ";
+    // The display name of this browser
+    display-run:                    "";
+    // The display name of this browser
+    display-drun:                    "";
+    // The display name of this browser
+    display-window:                 "";
+    display-combi:                  "";
+    show-icons: true;
+    // drun-icon-theme = "";
+}
+
+/**
+ * User: raph1324
+  * Copyright: Dave Davenport
+ */
+ * {
+    //colors
+    input-field: #343a45;
+    background-color: #ffffff00;
+    font-color: #ffffff;
+    background: #11111144;
+    blue: #6495ed55;
+
+    font: "Roboto 16";
+}
+
+window {
+    spacing: 0;
+	expand: true;
+    children:  [mainbox];
+    orientation: horizontal;
+    border: 345px 600px 346px 600px;
+    border-color: @background;
+}
+
+mainbox {
+    spacing: 0;
+    children: [ inputbar, message, listview ];
+}
+
+inputbar {
+    color: @font-color;
+    padding: 10px; 
+    background-color: @background;
+    border: 0px 0px 2px 0px;
+    border-color: @background-color;
+    font: "Roboto 12";
+}
+entry,prompt,case-indicator {
+    text-font: "Roboto Light Italic 8";
+    text-color: inherit;
+}
+
+listview {
+    padding: 0px;
+    //border-radius: 0px 0px 0px 0px;
+    //border-color: @blue;
+    //border: 0px 0px 0px 0px;
+    //lines: 10;
+    //lines: 10;
+    background-color: @background;
+}
+
+element {
+    //font color
+    color: @font-color;
+    font: "Roboto";
+}
+element selected.normal {
+	//highlighted color
+    background-color: @blue;
+}
