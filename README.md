@@ -2,7 +2,7 @@
 my i3wm configuration
 
 ## Bar
-I use *polybar* as my status bar with a few custom shell scripts for displaying the status of my two batteries and the wifi signal strength (in percent)
+I use *polybar* as my status bar with a few custom shell scripts for displaying the status of my two batteries and the wifi signal strength (in percent).  
 The scripts can be found in `.config/polybar/`
 
 ## Application Launcher
