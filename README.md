@@ -1,5 +1,6 @@
 # dotfiles
 my i3wm configuration
+This GitHub repository is mainly for backup purposes.
 
 ## Bar
 I use *polybar* as my status bar with a few custom shell scripts for displaying the status of my two batteries and the wifi signal strength (in percent).  
